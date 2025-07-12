@@ -2,16 +2,26 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />   
     <title>Bazareando - Mazatlán</title>
     <link rel="stylesheet" href="style.css" />
-    <img src="imagenes/logo-bazareando.png" alt="Logo Bazareando" width="200" />
 </head>
+
 <body>
     <header>
-        <h1>Bazareando</h1>
-        <p>Explora los mejores bazares de Mazatlán</p>
+    <img src="imagenes/logo-bazareando.png" alt="Logo Bazareando" width="100" />        
+  <div class="titulo-texto">
+    <h1>Bazareando</h1>
+    <p>Explora los mejores bazares de Mazatlán</p>
+  </div>
     </header>
+
+<nav class="navbar">
+  <ul>
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+</nav>
 
     <main>
         <section class="bazar">
@@ -43,6 +53,27 @@
         <p>Síguenos en Instagram: 
             <a href="https://instagram.com/el_indesigner" target="_blank">@el_indesigner</a>
         </p>
+
+<section id="contacto" class="contacto">
+  <h2>Contacto</h2>
+  <p>¿Quieres participar en un bazar o conocer más eventos? Escríbeme o sígueme en redes sociales:</p>
+
+  <div class="contacto-info">
+    <p><strong>Correo:</strong> eliza.zambrana@uabc.edu.mx</p>
+    <p><strong>Instagram:</strong> <a href="https://instagram.com/el_indesigner" target="_blank">@el_indesigner</a></p>
+  </div>
+
+  <form class="contacto-form" action="https://formspree.io/f/mnnvewgj" method="POST">
+    <input type="text" name="nombre" placeholder="Tu nombre" required>
+    <input type="email" name="email" placeholder="Tu correo electrónico" required>
+    <textarea name="mensaje" placeholder="Escribe tu mensaje aquí..." rows="5" required></textarea>
+    <button type="submit">Enviar mensaje</button>
+<form class="contacto-form" action="https://formspree.io/f/moqkjvjd" method="POST" onsubmit="alert('Gracias por tu mensaje!');">
+
+
+  </form>
+</section>
+
     </footer>
 </body>
 </html>
