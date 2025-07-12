@@ -1,74 +1,77 @@
 /* Estilos para Bazareando */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f1efdb;
-    color: #333;
-    background-image: url('imagenes/fondo.png');
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff8f4;
+  color: #674c47;
+    background-image: url('img/fondo.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
 }
 
 header {
-    background-color: #997161;
-    color: white;
-    padding: 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap; /* Por si se reduce en móvil */
-    text-align: left;
+  background-color: #997161;
+  color: white;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Por si se reduce en móvil */
+  text-align: left;
+  padding-bottom: 1rem;
 }
+
 .logo {
-  width: 60px;
+  width: 100px;
   height: auto;
 }
 
-.titulo-texto h1 {
-  margin: 0;
-  font-size: 2rem;
-}
-
-.titulo-texto p {
-  margin: 0;
-  font-size: 1rem;
-  font-weight: 300;
-}
-
-.navbar {
-  background-color: #e5c6b3;
-  padding: 0.8rem 0;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.navbar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+nav {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
 }
 
-.navbar a {
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links li a {
+  color: white;
   text-decoration: none;
-  color: #5a2d1b;
   font-weight: bold;
-  font-size: 1rem;
-  transition: color 0.3s;
 }
 
-.navbar a:hover {
-  color: #ffffff;
+.nav-links li a:hover {
+  text-decoration: underline;
 }
 
+.hero {
+  text-align: center;
+  padding: 2rem 1rem;
+}
 
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Secciones */
+section {
+  padding: 2rem;
+}
+
+/*bazares*/
 main {
     padding: 1rem;
 }
@@ -94,65 +97,10 @@ main {
     font-weight: bold;
 }
 
+/*pie de pagian*/
 footer {
-    background-color: #997161;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-}
-
-.contacto {
-  background-color: #fdf5f0;
-  padding: 2rem;
-  color: #5a2d1b;
   text-align: center;
-}
-
-.contacto h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.contacto-info p {
-  margin: 0.3rem 0;
-}
-
-.contacto a {
-  color: #997161;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.contacto-form {
-  margin-top: 1.5rem;
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.contacto-form input,
-.contacto-form textarea {
-  padding: 0.8rem;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  font-family: inherit;
-}
-
-.contacto-form button {
-  padding: 0.8rem;
-  background-color: #997161;
+  padding: 1rem;
+  background-color: #7e5748;
   color: white;
-  border: none;
-  border-radius: 8px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s;
 }
-
-.contacto-form button:hover {
-  background-color: #7d5548;
-}
-
