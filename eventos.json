@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "Bazar de Verano",
+    "fecha": "2025-07-20",
+    "ubicacion": "Parque Central, Mazatlán",
+    "descripcion": "Ropa vintage, música y snacks locales.",
+    "imagen": "img/bazar-verano.jpg",
+    "maps": "https://maps.app.goo.gl/Q1BF4JCWndmNnXwx6"
+  },
+  {
+    "titulo": "Noche Rosa",
+    "fecha": "2025-07-14",
+    "ubicacion": "Av. La Marina 234",
+    "descripcion": "Accesorios artesanales y marcas locales con temática rosa.",
+    "imagen": "img/noche-rosa.jpg",
+    "maps": "https://maps.app.goo.gl/B9bt3krrw5D1k6799"
+  }
+
+]
+

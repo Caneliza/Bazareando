@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anúnciate | Bazareando</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="img/logo-bazareando.png" alt="Logo Bazareando" class="logo">
+      <ul class="nav-links">
+        <li><a href="index.html#inicio">Inicio</a></li>
+
+        <li><a href="anunciate.html">Anúnciate</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Anúnciate con Nosotros</h1>
+      <p>Conecta con tu público en Mazatlán a través de Bazareando</p>
+    </div>
+  </header>
+<section class="anunciate">
+    <section>
+      <h2>Anúnciate con nosotros</h2>
+      <p>Si organizas un bazar o evento y quieres que aparezca en nuestra página, llena el siguiente formulario. Te contactaremos pronto.</p>
+    </section>
+
+    <form action="https://formspree.io/f/mnnvewgj" method="POST">
+      <label for="nombre">Nombre del bazar</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="organizador">Nombre del organizador</label>
+      <input type="text" id="organizador" name="organizador" required />
+
+      <label for="fecha">Fecha del evento</label>
+      <input type="date" id="fecha" name="fecha" required />
+
+      <label for="ubicacion">Ubicación</label>
+      <input type="text" id="ubicacion" name="ubicacion" required />
+
+      <label for="logo">Enlace al logo del bazar (opcional)</label>
+      <input type="url" id="logo" name="logo" placeholder="https://..." />
+
+      <label for="descripcion">Descripción del evento</label>
+      <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+
+      <label for="email">Correo de contacto</label>
+      <input type="email" id="email" name="email" required />
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+<footer>
+    <p>© 2025 Bazareando. Hecho con ❤️ en Mazatlán.</p>
+  </footer>
+</body>
+</html>
