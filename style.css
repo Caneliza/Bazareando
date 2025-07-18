@@ -1,23 +1,28 @@
 /* Estilos para Bazareando */
+.titulo {
+  font-size: 25px; /* Puedes usar px, rem, %, etc. */
+  font-weight: bolder;
+}
+
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
-  background-color: #fff8f4;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fbce9f;
   color: #674c47;
-    background-image: url('img/fondo.png');
+    /*background-image: url('img/kraft1.jpg');*/
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 header {
-  background-color: #997161;
+  background-color: #c48d6c;
   color: white;
-  padding: 1.5rem;
+  padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
   flex-wrap: wrap; /* Por si se reduce en móvil */
   text-align: left;
   padding-bottom: 1rem;
@@ -30,7 +35,7 @@ header {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding: 1rem 1rem;
 }
@@ -54,7 +59,7 @@ nav {
 
 .hero {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 1rem;
 }
 
 .hero h1 {
@@ -66,19 +71,26 @@ nav {
   font-size: 1.2rem;
 }
 
+/*pie de pagian*/
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #c48d6c;
+  color: white;
+}
 /* Secciones */
 section {
   padding: 2rem;
 }
 
-/*bazares*/
+/*Bazares*/
 .eventos-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
   padding: 1rem;
 }
-
+/* Layout evento */
 .evento {
   background-color: #fff6f0;
   border-radius: 12px;
@@ -86,17 +98,24 @@ section {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   transition: transform 0.2s ease;
 }
-
 .evento:hover {
   transform: translateY(-5px);
 }
-
+/* Eventos de colores */
+.evento-rosa {
+  background-color: #f3a09f;
+}
+.evento-simple {
+  background-color: #fff6f0;
+}
+/* Imagenes de eventos */
 .evento-img {
   width: 100%;
   height: auto;
   border-radius: 8px;
   margin-bottom: 0.8rem;
 }
+/* Boton maps */
 .btn-maps {
   display: inline-block;
   margin-top: 0.5rem;
@@ -108,38 +127,29 @@ section {
   font-weight: bold;
   transition: background-color 0.2s ease;
 }
-
+/* Animacion boton*/
 .btn-maps:hover {
   background-color: #7f594e;
 }
 
 
-/*pie de pagian*/
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #7e5748;
-  color: white;
-}
-
 /*anunciate pagina*/
 .beneficios {
   margin: auto;
   text-align: center;
-  background-color: #fff6f0;
-  border-radius: 12px;
+  background-color: #fbce9f;
   padding: 1rem;
   transition: transform 0.2s ease;
 }
 .beneficios h2 {
   text-size-adjust: 5rem;
-  color: #997161;
+  color: #674c47;
   text-align: center;
 }
 /*paquetes*/
 
 .paquetes {
-  background-color: #fff5f0;
+  background-color: #fbce9f;
   padding: 3rem 1rem;
   text-align: center;
   
@@ -152,7 +162,9 @@ footer {
   justify-content: center;
   gap: 2rem;
   margin-top: 2rem;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+  background-color: #fff6f0;
 
 }
 
@@ -166,7 +178,7 @@ footer {
 }
 
 .paquete h3 {
-  color: #997161;
+  color: #674c47;
   font-size: 1.3rem;
 }
 

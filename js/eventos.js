@@ -21,10 +21,17 @@ document.addEventListener("DOMContentLoaded", () => {
         const card = document.createElement('div');
         card.classList.add('evento');
 
+        if (evento.categoria === "rosa"){
+          card.classList.add('evento-rosa');
+        } else if (evento.categoria === "simple"){card.classList.add('evento-simple');
+
+        }
+
         card.innerHTML = `
           <img src="${evento.imagen}" alt="${evento.titulo}" class="evento-img">
           <h3>${evento.titulo}</h3>
           <p><strong>📅 Fecha:</strong> ${evento.fecha}</p>
+          <p><strong>🕒 Horario:</strong> ${evento.horario || 'Horario no disponible'}</p>
           <p><strong>📍 Lugar:</strong> ${evento.ubicacion}</p>
           <p>${evento.descripcion}</p>
           ${evento.maps ? `<a href="${evento.maps}" target="_blank" class="btn-maps">Ver en Google Maps</a>` : ''}

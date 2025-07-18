@@ -1,20 +1,64 @@
 [
   {
-    "titulo": "Bazar de Verano",
-    "fecha": "2025-07-20",
-    "ubicacion": "Parque Central, Mazatlán",
-    "descripcion": "Ropa vintage, música y snacks locales.",
-    "imagen": "img/bazar-verano.jpg",
-    "maps": "https://maps.app.goo.gl/Q1BF4JCWndmNnXwx6"
+    "titulo": "Mercado rosa",
+    "fecha": "2025-07-19",
+    "ubicacion": "Parque Ciudades Hermanas",
+    "descripcion": "Apoyo a emprendimientos y consumo local",
+    "imagen": "img/logosB/Mercado rosa.jpg",
+    "maps": "https://maps.app.goo.gl/Y8ohXftb7sS6hFNa8",
+    "categoria": "rosa"
   },
   {
-    "titulo": "Noche Rosa",
-    "fecha": "2025-07-14",
-    "ubicacion": "Av. La Marina 234",
-    "descripcion": "Accesorios artesanales y marcas locales con temática rosa.",
-    "imagen": "img/noche-rosa.jpg",
-    "maps": "https://maps.app.goo.gl/B9bt3krrw5D1k6799"
+    "titulo": "Mas bazar",
+    "fecha": "2025-07-20",
+    "ubicacion": "Parque Ciudades Hermanas",
+    "descripcion": "Cine-Food Zone-Zona kids",
+    "imagen": "img/logosB/Mas bazar.jpg",
+    "maps": "https://maps.app.goo.gl/Y8ohXftb7sS6hFNa8"
+  },
+  {
+    "titulo": "Expo Venados",
+    "fecha": "2025-07-26",
+    "ubicacion": "Mazatlán",
+    "maps": "https://maps.app.goo.gl/bWL6vxLkiD8ptsGL6"
+  },
+  {
+    "titulo": "Rebella",
+    "fecha": "2025-07-27",
+    "ubicacion": "Parque Ciudades Hermanas",
+    "descripcion": "Edición de Aniversario",
+    "horario": "05:00 pm a 10:00 pm",
+    "imagen": "img/logosB/Rebella.jpg",
+    "maps": "https://maps.app.goo.gl/Y8ohXftb7sS6hFNa8"
+  },
+  {
+    "titulo": "Mercado rosa",
+    "fecha": "2025-08-03",
+    "ubicacion": "Parque Ciudades Hermanas",
+    "descripcion": "Apoyo a emprendimientos y consumo local",
+    "imagen": "img/logosB/Mercado rosa.jpg",
+    "maps": "https://maps.app.goo.gl/Y8ohXftb7sS6hFNa8",
+    "categoria": "rosa"
+  },
+    {
+    "titulo": "Cabo Market",
+    "fecha": "2025-08-03",
+    "ubicacion": "Plaza Cabo carena",
+    "imagen": "img/logosB/cabo carena.jpg",
+    "descripcion": "Te esperamos en nuestra próxima edición de Cabo Market con lo mejor de emprendedores locales.",
+    "maps": "https://maps.app.goo.gl/tMXbS2MvCxqfgTyo6"
+  },  
+  {
+    "titulo": "Mercadito",
+    "fecha": "2025-08-10",
+    "ubicacion": "Mazatlán",
+    "maps": "https://maps.app.goo.gl/bWL6vxLkiD8ptsGL6"
+  },
+  {
+    "titulo": "Star Market",
+    "fecha": "2025-08-31",
+    "ubicacion": "Mazatlán",
+    "maps": "https://maps.app.goo.gl/bWL6vxLkiD8ptsGL6"
   }
-
 ]
 
